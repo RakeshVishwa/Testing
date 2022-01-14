@@ -21,9 +21,10 @@ public class TC_LoginTest_002 extends BaseClass {
 		 try 
 		 { 
 			 Thread.sleep(5000);
-			 } catch (Exception e) 
-		 { // TODO: handle exception 
-				 
+			 } 
+		 catch (Exception e) 
+		 { 
+			 // TODO: handle exception 
 		 }
 		 
 		CommonFunction.enterText(Ns.txtFirstName, NewCustomerTestData.getFirstName());
