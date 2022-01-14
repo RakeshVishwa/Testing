@@ -9,7 +9,7 @@ public class TC_LoginTest_001 extends BaseClass
 	@Test
 	public void loginTest()
 	{
-		//Validation
+		//Add Validation
 		if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
 		{
 			Assert.assertTrue(true);
