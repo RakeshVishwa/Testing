@@ -2,13 +2,21 @@ package com.TestData;
 
 public class LoginTestData {
 	
+	static String Chromepath="D:\\GitWorkSpace\\Testing\\Drivers\\chromedriver.exe";
+	
 	static String ApplicationURL = "http://demo.guru99.com/V4";
 	
-	static String ApplicationUsername = "mngr377215";
+	static String ApplicationUsername = "mngr377519";
 	
-	static String ApplicationPassword = "nudAjuv";
+	static String ApplicationPassword = "EpAranu";
 	
 	//Getter Method for Login Test Data
+	
+	public static String getChrompath()
+	{
+		return Chromepath;
+	}
+	
 	public static String getApplicationUrl()
 	{
 		return ApplicationURL;

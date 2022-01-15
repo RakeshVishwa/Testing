@@ -1,4 +1,5 @@
 package com.TestCase;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.CommonFunction.CommonFunction;
@@ -51,16 +52,16 @@ public class TC_LoginTest_002 extends BaseClass {
 		
 		CommonFunction.click(Ns.Csubmit);
 		
-		if(driver.getTitle().equals(" Guru99 Bank New Customer Entry Page "))
+		if(driver.getTitle().equals("Guru99 Bank Customer Registration Page"))
 		{
-			//Assert.assertTrue(true);
+			Assert.assertTrue(true);
 			//boolean flag= true;
 			
 			System.out.println("Test Case Passed");
 		}
 		else
 		{
-			//Assert.assertTrue(false);
+			Assert.assertTrue(false);
 		}
 	}
 	}

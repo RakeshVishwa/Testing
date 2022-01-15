@@ -8,13 +8,12 @@ import org.testng.annotations.BeforeTest;
 import com.CommonFunction.CommonFunction;
 import com.PageObject.LoginPage;
 import com.TestData.LoginTestData;
-import com.Utilities.ReadConfig;
 
 
 public class BaseClass {
 
 	
-	static ReadConfig readconfig= new ReadConfig();
+	//static ReadConfig readconfig= new ReadConfig();
 	
 	public static WebDriver driver;
 	
@@ -23,7 +22,7 @@ public class BaseClass {
 	public void setup()
 	{
 		
-		System.setProperty("webdriver.chrome.driver", ReadConfig.getChromepath());
+		System.setProperty("webdriver.chrome.driver", LoginTestData.getChrompath());
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(LoginTestData.getApplicationUrl());

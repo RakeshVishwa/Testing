@@ -2,7 +2,7 @@ package com.TestData;
 
 public class NewCustomerTestData {
 	
-	static String FirstName = "Rakesh Pal";
+	static String FirstName = "Rakes Pal";
 	
 	static String DOB = "13081997";
 	
@@ -14,9 +14,9 @@ public class NewCustomerTestData {
 	
 	static String Pin = "401189";
 	
-	static String Phone = "9867453656";
+	static String Phone = "9855453656";
 	
-	static String EmailID = "Rakesh@0178@gmail.comr";
+	static String EmailID = "Rakesh01@0178@gmail.comr";
 
 	static String Password = "Cby@2020";
 	
