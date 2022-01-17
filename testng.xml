@@ -4,7 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.TestCase.TC_LoginTest_002"/>
-      <class name="com.TestCase.BaseClass"/>
       <class name="com.TestCase.TC_LoginTest_001"/>
     </classes>
   </test> <!-- Test -->
