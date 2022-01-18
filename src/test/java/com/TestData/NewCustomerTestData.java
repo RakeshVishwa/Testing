@@ -1,5 +1,7 @@
 package com.TestData;
 
+import com.CommonFunction.CommonFunction;
+
 public class NewCustomerTestData {
 	
 	static String FirstName = "Rakes Pal";
@@ -14,9 +16,9 @@ public class NewCustomerTestData {
 	
 	static String Pin = "401189";
 	
-	static String Phone = "9855453656";
+	static String Phone = CommonFunction.randomNumeric(10);
 	
-	static String EmailID = "Rakesh01@0178@gmail.comr";
+	static String EmailID = "Ra"+CommonFunction.randomAlphaNumeric(4)+"@gmail.com";
 
 	static String Password = "Cby@2020";
 	
