@@ -1,6 +1,6 @@
 package com.TestCase;
 
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC_LoginTest_001 extends BaseClass

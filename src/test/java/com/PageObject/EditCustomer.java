@@ -15,7 +15,25 @@ public class EditCustomer {
 		PageFactory.initElements(EDdriver, this);
 		
 	}
+	public @FindBy(linkText="Edit Customer") WebElement EditCustomer;
 	
-	@FindBy(name="cusid") WebElement CustomerID;
-
+	public @FindBy(name="cusid") WebElement CustomerID;
+	
+	public @FindBy(name="AccSubmit") WebElement ASubmit;
+	
+	public @FindBy(name="addr") WebElement Eadd;
+	
+	public @FindBy(name="city") WebElement Ecity;
+	
+	public @FindBy(name="state") WebElement Estate;
+	
+	public @FindBy(name="pinno") WebElement Epin;
+	
+	public @FindBy(name="telephoneno") WebElement Ephone;
+	
+	public @FindBy(name="emailid") WebElement Eemail;
+	
+	public @FindBy(name="sub") WebElement Esubmit;
+	
+	
 }

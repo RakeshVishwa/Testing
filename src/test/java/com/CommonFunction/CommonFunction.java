@@ -25,6 +25,11 @@ public class CommonFunction {
 
 	}
 	
+	public static void clear(WebElement localElement)
+	{
+		localElement.clear();
+	}
+	
 
 	
 	
