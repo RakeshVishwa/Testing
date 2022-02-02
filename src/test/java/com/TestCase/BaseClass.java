@@ -38,10 +38,10 @@ public class BaseClass {
 		
 	}
 
-	
+	//After method
 	@AfterTest
 	public void tearDown()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 }

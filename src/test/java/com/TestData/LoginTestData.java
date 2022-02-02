@@ -4,6 +4,8 @@ public class LoginTestData {
 	
 	static String Chromepath="D:\\GitWorkSpace\\Testing\\Drivers\\chromedriver.exe";
 	
+	//static String NewChromepath= "D:\\WorkSpace_GitProjects\\com.OrangeHRM\\Drivers\\chromedriver.exe";	
+	
 	static String ApplicationURL = "http://demo.guru99.com/V4";
 	
 	static String ApplicationUsername = "mngr377519";
