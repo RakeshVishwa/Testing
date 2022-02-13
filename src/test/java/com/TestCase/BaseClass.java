@@ -13,7 +13,7 @@ import com.TestData.LoginTestData;
 public class BaseClass {
 
 	
-	//static ReadConfig readconfig= new ReadConfig();
+	
 	
 	public static WebDriver driver;
 	
