@@ -8,9 +8,9 @@ public class LoginTestData {
 	
 	static String ApplicationURL = "http://demo.guru99.com/V4";
 	
-	static String ApplicationUsername = "mngr377519";
+	static String ApplicationUsername = "mngr475882";
 	
-	static String ApplicationPassword = "EpAranu";
+	static String ApplicationPassword = "ydemEvy";
 	
 	//Getter Method for Login Test Data
 	

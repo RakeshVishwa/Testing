@@ -9,6 +9,8 @@ import com.CommonFunction.CommonFunction;
 import com.PageObject.LoginPage;
 import com.TestData.LoginTestData;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class BaseClass {
 
@@ -22,7 +24,8 @@ public class BaseClass {
 	public void setup()
 	{
 		
-		System.setProperty("webdriver.chrome.driver", LoginTestData.getChrompath());
+//		System.setProperty("webdriver.chrome.driver", LoginTestData.getChrompath());
+		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(LoginTestData.getApplicationUrl());
